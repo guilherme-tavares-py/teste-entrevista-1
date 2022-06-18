@@ -1,0 +1,57 @@
+@media only screen and (min-width: 600px)  {
+    td:nth-child(2) {
+        border-right: 3px solid black;
+        border-left: 3px solid black;
+          
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 400%;
+        
+    }
+    h3 {
+        font-size: 200%;
+    }
+    table {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    h3 {
+        display: none;
+    }
+     #container {
+        display: flex;
+        justify-content:center;
+        align-content: center;
+        flex-wrap: wrap;
+    } 
+    table {
+        display: inline-block;
+        margin: 0.4%;
+        width: 40%;
+        height: auto;
+        box-shadow: none;
+        border: none;
+    }
+    tr {
+        padding: 1%;
+        font-size: 125%;
+    }
+    th {
+        padding: 1%;
+        font-size: 125%;
+    } 
+    td {
+        padding: 2%;
+        font-size: 125%;
+    }
+    td:nth-child(2) {
+        border-right: 1px solid rgb(235, 235, 235);
+        border-left: 1px solid rgb(235, 235, 235);;
+          
+    }
+}
